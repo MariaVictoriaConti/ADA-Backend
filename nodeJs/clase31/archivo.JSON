@@ -1,0 +1,9 @@
+{
+    "nombre": "Juan",
+    "edad": 30,
+    "sexo": "masculino",
+    "direccion": {
+        "ciudad": "Santiago",
+        "pais": "Chile"        
+    }
+}

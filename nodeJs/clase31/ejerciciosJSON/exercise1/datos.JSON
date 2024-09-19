@@ -1,0 +1,11 @@
+{
+    "nombre": "Victoria",
+    "edad": 35,
+    "genero": "femenino",
+    "email": "victoria@gmail.com",
+    "direccion": {
+        "ciudad":"Villa Carlos Paz",
+        "provincia": "Cordoba",
+        "pais": "Argentina"
+    }
+}
