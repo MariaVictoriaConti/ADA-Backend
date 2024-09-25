@@ -1,6 +1,6 @@
 let variable:any = 35;
 
-console.log(variable);
+console.log(`Aqui la variable es tipo number: ${variable}`);
 
 variable = "Ahora soy String";
 
