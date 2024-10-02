@@ -37,7 +37,7 @@ export class Coche extends Vehículo {
     }
 
     public infoAndTipoCombustible(): string {
-        return super.infoVehiculo() + `El tipo de combustible que utiliza este vehiculo es ${this.tipoCombustible}`;
+        return super.infoVehiculo() + `El tipo de combustible que utiliza este vehiculo es ${this.tipoCombustible}.`;
     }
 }
 
@@ -55,6 +55,8 @@ class Motocicleta extends Vehículo{
     }
 }
 
+const vehiculo1 = new Vehículo("Chevrolet", "Corsa", "Auto");
+console.log(vehiculo1.infoVehiculo());
 
 
 const Coche1 = new Coche("Honda", "City", "Coche", "Gas");
