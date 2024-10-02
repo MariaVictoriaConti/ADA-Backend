@@ -1,0 +1,41 @@
+Paradigma Orientado a Objetos
+#Paradigma = modelos a seguir.
+
+# enfoque de programacion basado en el concepto de los objetos (objetos=situaciones o cosas de la vida real)
+
+# objeto=entidad que agrupa datos- finalidad modelar cosas del mundo real- objetos que interactuan entre situaciones
+
+# objetos tiene propiedades = atributos  caracteristicas del objete suelen ser sustantivos
+ATRIBUTO: caracteristica de un obj, nombre edad colorDePelo.
+
+
+#objetos tienen comportamientos = acciones que el objeto puede realizar se expresan con verbos
+
+#Metodo = funcion asociada a objeto o clase, permiten q los obj realicen acciones o manipulen sus propias propiedades.
+
+#Interfaz = contrato que define la estructura de un objeto.
+
+#THIS = se usa para referirse a la instancia actual de un objeto o clase, lo que esta dentro de esa clase o objeto. Se usa en metodos
+
+#Clases = plantillas o receta para crear objetos, modelo a seguir, es como un plano a seguir para crear el objeto.
+#Instaciar = es crear un objeto a partir de una clase, nos basamos en esa clase para crear un objeto con caracteristicas especificas.
+
+#Como definimos una clase?
+palabra reservada CLASS <nombreClase>{
+    //propiedades
+    public propiedad1: tipo;
+    private propiedad2:tipo;
+
+    //comportamientos
+    constructor (param1: tipo, param2: tipo){        //constructor es un metodo especial al que se le pasan paramentros  
+        this.propiedad1 = param1;
+        this.propiedad2 = param2;
+    }
+
+    public metodo():tipoDeRetorno{
+        codigo del metodo
+        return valor;
+    }
+}
+
+
