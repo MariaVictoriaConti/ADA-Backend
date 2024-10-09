@@ -5,3 +5,8 @@ siguientes funciones:
 Exporta ambas funciones. En main.ts, utiliza el namespace Geometry para llamar a
 las funciones y muestra los resultados en la consola.*/
 
+namespace Geometry{
+    export const areaOfCircle = (radius:number):number {
+        return 
+    }
+}
