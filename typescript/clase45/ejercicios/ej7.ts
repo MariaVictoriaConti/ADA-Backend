@@ -11,7 +11,7 @@ class Negocio{
 
 
 class Consultoria extends Negocio{
-public operarNegocio(): void {
+public operar(): void {
     super.operar()
     console.log(`Este negocio Trabaja de 9:00hs a 18hs de Lunes a Viernes.`);
     
